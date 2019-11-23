@@ -1,19 +1,19 @@
 header {
     background-color: rgb(63, 63, 63);
-    width: auto;
+    width: 960px;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 li {
     display: inline-block;
-    margin: 10px;
-    padding: 50px;
+    margin-left: 30px;
+    padding: 40px;
 }
 
 li a {
@@ -25,8 +25,8 @@ li a {
 }
 
 li:hover {
-    width: 200px;
-    height: 70px;
+    width: auto;
+    height: 70%;
     background-color: black;
 }
 
@@ -34,4 +34,35 @@ li:hover {
     width: 1000px;
     height: auto;
     background-color: white;
+}
+
+#hero-image {
+    display: inline-block;
+    width: 960px;
+    height: 450px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #000;
+}
+
+.sub-banner {
+    display: inline-block;
+    width: 300px;
+    height: 375px;
+    margin-top: 30px;
+    margin-right: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #000;
+}
+
+.featured #banner {
+
+}
+
+.featured #heading {
+    
 }
