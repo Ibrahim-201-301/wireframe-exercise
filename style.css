@@ -102,3 +102,9 @@ button {
 button:hover {
     background-color: olivedrab;
 }
+
+#footer {
+    background-color: rgb(63, 63, 63);
+    width: 960px;
+    height: 100px;
+}
